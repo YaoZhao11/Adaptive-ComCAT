@@ -3,6 +3,9 @@ The input image is segmented into patches of the sequence and sent to the transf
 
 ![image](https://github.com/user-attachments/assets/f76eef9c-f4a1-4920-b428-704dcf0bd439)
 
+# Dataset
+In this paper, we use ImageNet dataset, it is a public available dataset, and from the reference below:
+Deng J, Dong W, Socher R et al (2009) Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition, IEEE.pp 248-255.
 
 # Setup
 ```
