@@ -29,7 +29,7 @@ In this paper, we use ImageNet dataset, it is a public available dataset, and fr
 
 Deng J, Dong W, Socher R et al (2009) Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition, IEEE.pp 248-255.
 
-we can also downlond dataset in https://image-net.org/challenges/LSVRC/2012/index.php
+we can also downlond dataset in https://www.image-net.org/challenges/LSVRC/2012/2012-downloads.php
 
 # Setup
 ```
