@@ -11,7 +11,7 @@ The input image is segmented into patches of the sequence and sent to the transf
 
 # Dependencies
 
-GPU NVIDIA RTX A6000 48GB
+GPU NVIDIA RTX A6000, 48GB
 
 Ubuntu 20.04
 
@@ -64,4 +64,4 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env  main.py --model
 # Title of Article and Journal
 Optimizing Low-Rank Decomposition for Efficient Attention-Based Vision Models via Adaptive Neural Architecture Search
 
-《The Visual Computer》
+《The Visual Computer》,https://link.springer.com/journal/371
