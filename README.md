@@ -1,6 +1,6 @@
 # Optimizing Low-Rank Decomposition for Efficient Attention-Based Vision Models via Adaptive Neural Architecture Search [[_The Visual Computer_]](https://link.springer.com/journal/371)
 
-ComCAT is a low-rank decomposition method for VisionTransformer, using NAS searching for rank-values. The algorithms are available at https://proceedings.mlr.press/v202/xiao23e.html
+ComCAT is a low-rank decomposition method for VisionTransformer, using NAS searching for rank-values. The algorithms are available at https://proceedings.mlr.press/v202/xiao23e.html, and the source of code is available at https://github.com/jinqixiao/ComCAT
 
 Adaptive-ComCAT introduce adaptive coefficients for searching frequency to reducing unnecessary NAS iterations so as to alleviate the impairment of huge searching space.
 # Methods
@@ -63,5 +63,4 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env  main.py --model
 mkdir base_82.28_0.61
 python -m torch.distributed.launch --nproc_per_node=4 --use_env  main.py --model deit_base_patch16_224 --data-path /path/to/imagenet/ --batch-size 256 --finetune-rank-dir base_82.28_0.61 --attn2-with-bias --eval
 ```
-# Acknowledgement
-This code is borrows heavily from  https://github.com/jinqixiao/ComCAT
+
