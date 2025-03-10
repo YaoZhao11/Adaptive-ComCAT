@@ -58,9 +58,9 @@ python main.py --model deit_base_patch16_224 --data-path /path/to/imagenet/ --ba
 ```
 # DeiT-small
 mkdir small_79.58_0.44
-python -m torch.distributed.launch --nproc_per_node=4 --use_env  main.py --model deit_small_patch16_224 --data-path /path/to/imagenet/ --batch-size 256 --finetune-rank-dir small_79.58_0.44 --attn2-with-bias --eval
+python -m torch.distributed.launch --nproc_per_node=1 --use_env  main.py --model deit_small_patch16_224 --data-path /path/to/imagenet/ --batch-size 256 --finetune-rank-dir small_79.58_0.44 --attn2-with-bias --eval
 # DeiT-Base
 mkdir base_82.28_0.61
-python -m torch.distributed.launch --nproc_per_node=4 --use_env  main.py --model deit_base_patch16_224 --data-path /path/to/imagenet/ --batch-size 256 --finetune-rank-dir base_82.28_0.61 --attn2-with-bias --eval
+python -m torch.distributed.launch --nproc_per_node=1 --use_env  main.py --model deit_base_patch16_224 --data-path /path/to/imagenet/ --batch-size 256 --finetune-rank-dir base_82.28_0.61 --attn2-with-bias --eval
 ```
 
